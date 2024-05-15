@@ -1,6 +1,6 @@
 const links_to_play = {
     campo_minato: "http://localhost:63342/TestJS/srcCampoMinato/index.html?_ijt=hilfj0290r0fbg8j9ba111ddn6&_ij_reload=RELOAD_ON_SAVE",
-    dama: "http://localhost:63342/TestJS/srcDama/index.html?_ijt=kur76a74vllddtf6va2m323hqi&_ij_reload=RELOAD_ON_SAVE;",
+    dama: "https://github.com/Tiume001/web-games/tree/main/dama",
     snake: "http://localhost:63342/TestJS/snake/index.html?_ijt=p1h7910b9oltkv260ggp867p29&_ij_reload=RELOAD_ON_SAVE",
     talpa: "http://localhost:63342/TestJS/srcTalpa/index.html?_ijt=9qu7fl253ebkf8d197st1vmt67&_ij_reload=RELOAD_ON_SAVE",
     tetris: "http://localhost:63342/TestJS/srcTetris/index.html?_ijt=c9gdvth9m52b2atpbhnihvogqn&_ij_reload=RELOAD_ON_SAVE",
