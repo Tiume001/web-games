@@ -1,0 +1,41 @@
+body {   /*center the body of my file.html*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.message {
+    color: red; /* Cambia il colore del testo */
+    font-size: 40px; /* Cambia la dimensione del testo */
+    font-weight: bold; /* Cambia lo stile del testo (grassetto) */
+    text-align: center; /* Centra il testo */
+    margin: 0 auto; /* Centra l'elemento */
+    transition: color 0.5s ease-in-out, font-size 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Aggiungi un'animazione quando il mouse passa sopra il messaggio */
+.message:hover {
+    color: #f57004; /* Cambia il colore quando il mouse passa sopra */
+    font-size: 50px; /* Cambia la dimensione del testo quando il mouse passa sopra */
+    text-align: center; /* Centra il testo */
+    margin: 0 auto; /* Centra l'elemento */
+    transform: scale(2.5); /* Ingrandisci leggermente il testo quando il mouse passa sopra */
+}
+
+.hovered {
+    background-color: lightblue; /* Cambia qui il colore desiderato */
+}

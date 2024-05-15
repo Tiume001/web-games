@@ -1,0 +1,10 @@
+#barra-ricerca{
+    position: fixed;
+    left: 45%;
+    top: 80px;
+}
+#button_ID{
+    position: fixed;
+    left: 56%;
+    top: 80px;
+}
