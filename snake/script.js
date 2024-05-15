@@ -71,13 +71,13 @@ function draw() {
     // Draw snake
     snake.forEach(segment => {
         const snakeImg = new Image();
-        snakeImg.src = 'images/snake.png'; // Immagine del corpo del serpente
+        snakeImg.src = 'imgs/snake.png'; // Immagine del corpo del serpente
         ctx.drawImage(snakeImg, segment.x * CELL_SIZE, segment.y * CELL_SIZE, CELL_SIZE, CELL_SIZE);
     });
 
     // Draw food
     const foodImg = new Image();
-    foodImg.src = 'images/apple.png'; // Immagine della mela
+    foodImg.src = 'imgs/apple.png'; // Immagine della mela
     ctx.drawImage(foodImg, food.x * CELL_SIZE, food.y * CELL_SIZE, CELL_SIZE, CELL_SIZE);
 }
 
