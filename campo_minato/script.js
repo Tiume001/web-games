@@ -13,7 +13,7 @@ function createBoard() {
 
 function createTile(i, j) {
     const tile = document.body.appendChild(document.createElement("img"));
-    tile.setAttribute("src", "images/piastrella.gif");
+    tile.setAttribute("src", "imgs/piastrella.gif");
     tile.mina = (i * RowsAndCols + j) < numMine;
     tile.vicini = [];
     for (let y = Math.max(0, i - 1); y <= Math.min(RowsAndCols - 1, i + 1); y++) {
@@ -35,7 +35,7 @@ function shuffleTiles() {
 }
 
 function click(tile) {
-    if (tile.getAttribute("src") === "images/piastrella.gif") {
+    if (tile.getAttribute("src") === "imgs/piastrella.gif") {
         if (tile.mina) {
             revealMines();
             document.body.appendChild(document.createTextNode("Hai perso ! "));
@@ -45,7 +45,7 @@ function click(tile) {
             for (let i = 0; i < tile.vicini.length; i++) {
                 mine += tiles[tile.vicini[i]].mina;
             }
-            tile.setAttribute("src", "images/sq" + mine + ".gif");
+            tile.setAttribute("src", "imgs/sq" + mine + ".gif");
             if (mine === 0) {
                 for (let i = 0; i < tile.vicini.length; i++) {
                     click(tiles[tile.vicini[i]]);
@@ -61,7 +61,7 @@ function click(tile) {
 function revealMines() {
     for (let i = 0; i < tiles.length; i++) {
         if (tiles[i].mina) {
-            tiles[i].setAttribute("src", "images/mina.gif");
+            tiles[i].setAttribute("src", "imgs/mina.gif");
         }
     }
 }
