@@ -1,10 +1,10 @@
 const links_to_play = {
-    campo_minato: "https://github.com/Tiume001/web-games/tree/main/campo_minato/",
-    dama: "https://github.com/Tiume001/web-games/tree/main/dama/",
-    snake: "https://github.com/Tiume001/web-games/tree/main/snake/",
-    talpa: "http://localhost:63342/TestJS/srcTalpa/index.html?_ijt=9qu7fl253ebkf8d197st1vmt67&_ij_reload=RELOAD_ON_SAVE",
-    tetris: "http://localhost:63342/TestJS/srcTetris/index.html?_ijt=c9gdvth9m52b2atpbhnihvogqn&_ij_reload=RELOAD_ON_SAVE",
-    tris: "http://localhost:63342/TestJS/srcTicTacToe/index.html?_ijt=5mmsbtpqmgs9hm50lqvplqhlbm&_ij_reload=RELOAD_ON_SAVE"
+    campo_minato: "https://tiume001.github.io/web-games/campo_minato/",
+    dama: "https://tiume001.github.io/web-games/dama/",
+    snake: "https://tiume001.github.io/web-games/snake/",
+    talpa: "https://tiume001.github.io/web-games/talpa/",
+    tetris: "https://tiume001.github.io/web-games/tetris/",
+    tris: "https://tiume001.github.io/web-games/tris/"
 }
 
 const images = {
