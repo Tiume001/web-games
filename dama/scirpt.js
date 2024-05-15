@@ -1,12 +1,12 @@
 // 0 = quadrato bianco, 1 = quadrato nero, -1 = pallino nero, 2 = pallino rosso, 3 = doppio pallino rosso, 4 = doppio pallino nero
 // mappatura per associare le immagini a i numeri della matrice
 const map_images = {
-    0: "images/gray.gif",
-    1: "images/black.gif",
-    '-1': "images/me1.gif", // Use quotes around keys that are not simple identifiers
-    2: "images/you1.gif",
-    3: "images/you1k.gif",
-    4: "images/me1k.gif"
+    0: "imgs/gray.gif",
+    1: "imgs/black.gif",
+    '-1': "imgs/me1.gif", // Use quotes around keys that are not simple identifiers
+    2: "imgs/you1.gif",
+    3: "imgs/you1k.gif",
+    4: "imgs/me1k.gif"
 };
 // gestione dei turni : 2 = rosso, 1 = nero
 let selected_piece_row = -1;
