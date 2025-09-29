@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <title>Tabella con Ricerca</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Giochi online • Tiumex</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <script src="script.js"></script>
+  <header class="site-header">
+    <h1 class="site-title">Giochi online • Tiumex</h1>
+    <div class="search-wrap">
+      <label for="search" class="visually-hidden">Cerca giochi</label>
+      <input id="search" type="search" placeholder="Cerca un gioco… (es. dama, tetris)" autocomplete="off" />
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>Nessun risultato.</p>
+  </main>
+
+  <template id="card-tpl">
+    <article class="card">
+      <a class="card-link" target="_blank" rel="noopener">
+        <figure class="card-figure">
+          <img class="card-img" alt="" loading="lazy" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title"></h2>
+          <p class="card-meta"></p>
+        </div>
+      </a>
+    </article>
+  </template>
+
+  <script src="script.js" type="module"></script>
 </body>
 </html>
-
