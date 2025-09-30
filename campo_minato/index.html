@@ -1,6 +1,33 @@
-<html lang="">
-<head><title>Campo minato</title></head>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campo Minato</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-<script src="script.js"></script>
+  <main class="app">
+    <header class="toolbar">
+      <h1>Campo Minato</h1>
+      <div class="controls">
+        <button id="newGame" type="button">Nuova partita</button>
+      </div>
+    </header>
+
+    <section class="statusbar">
+      <div>Caselle scoperte: <span id="revealed">0</span></div>
+      <div>Obiettivo: <span id="goal">0</span></div>
+      <div id="result" aria-live="polite"></div>
+    </section>
+
+    <section id="board" class="board" aria-label="Griglia di gioco"></section>
+
+    <footer class="hint">
+      Tocca o clicca per scoprire. Niente bandierine, tutto minimal.
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
